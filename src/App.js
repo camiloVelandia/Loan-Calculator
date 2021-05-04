@@ -4,7 +4,7 @@ import Container from "@material-ui/core/Container";
 
 function App() {
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="lg" className='container'>
       <Calculator />
     </Container>
   );
